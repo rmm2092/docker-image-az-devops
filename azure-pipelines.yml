@@ -10,7 +10,6 @@ resources:
 
 variables:
   # Container registry service connection established during pipeline creation
-  dockerRegistryServiceConnection: '528939f6-1142-437f-8b63-d1fdc296cea7'
   imageRepository: 'rmmdockerimageazdevopstest'
   containerRegistry: 'azdevopstest.azurecr.io'
   dockerfilePath: '$(Build.SourcesDirectory)/app/Dockerfile'
